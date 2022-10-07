@@ -1,3 +1,5 @@
+import { NavLink, Link } from "react-router-dom";
+
 import '../src/styles/App.scss';
 import '../src/components/pages/home'
 
@@ -6,7 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>This is Jordan's App</h1>
+        <div className="navbar">
+          <h3>Home</h3>
+          <h3>Contact</h3>
+          <h3>Menu</h3> 
+        </div>
+        <hr></hr>
       </header>
     </div>
   );
