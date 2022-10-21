@@ -1,8 +1,8 @@
 .App {
-	.navbar{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: flex-end;
-	}
+  .navbar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
 }
